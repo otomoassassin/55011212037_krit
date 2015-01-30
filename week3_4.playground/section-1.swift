@@ -22,11 +22,11 @@ class userpassword {
         return ans
         
     }
-
-    func add(useradd:String,pass:String){
-    user[useradd]=pass
-        println("add \(useradd) and password is \(pass)")
     
+    func add(useradd:String,pass:String){
+        user[useradd]=pass
+        println("add \(useradd) and password is \(pass)")
+        
     }
     
     func edit(useredit:String,pass:String){
