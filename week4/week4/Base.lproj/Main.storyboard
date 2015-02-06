@@ -16,15 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pY-2o-VmJ">
-                                <rect key="frame" x="34" y="54" width="36" height="40"/>
-                                <state key="normal" title="One" image="images.jpg">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="one:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dFo-XV-f8U"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZnB-k7-rDi">
                                 <rect key="frame" x="135" y="54" width="30" height="39"/>
                                 <state key="normal" title="Two" image="images.png">
@@ -68,6 +59,15 @@
                                 </state>
                                 <connections>
                                     <action selector="reset:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OmW-qo-LNJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pY-2o-VmJ">
+                                <rect key="frame" x="34" y="54" width="36" height="40"/>
+                                <state key="normal" title="One" image="images.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="one:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dFo-XV-f8U"/>
                                 </connections>
                             </button>
                         </subviews>
