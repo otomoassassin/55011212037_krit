@@ -29,5 +29,5 @@ class frrstye {
     
     
 }
-let sum = frrstye(yoursingle:"maroon5")
+let sum = frrstye(yoursingle:"maro")
 sum.update()
